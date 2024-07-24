@@ -149,10 +149,6 @@ def click_ex():
     minus_ingr(recepie.cofex, recepie.mex, recepie.crex, recepie.wex)
 
 def cook():
-    with open('cfg/ingr.txt', 'r', encoding='UTF-8') as file:
-        cfgfile = str(file.read())
-
-
     def both():
         tick()
         start_vid()
@@ -177,7 +173,6 @@ def cook():
         lvid.pack()
         player = tkvideo('res/loading.mp4', lvid, loop=1, size=(150, 100))
         player.play()
-    if
     global coice
     global win1
     win1 = Toplevel()
