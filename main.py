@@ -53,8 +53,7 @@ def click_cap():
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
         label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red',
-                      font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+                      font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
@@ -85,8 +84,7 @@ def click_ame():
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
         label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red',
-                      font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+                      font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
@@ -116,8 +114,7 @@ def click_lat():
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
         label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red',
-                      font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+                      font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
@@ -147,8 +144,7 @@ def click_de():
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
         label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red',
-                      font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+                      font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
@@ -178,8 +174,7 @@ def click_moc():
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
         label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red',
-                      font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+                      font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
@@ -207,8 +202,7 @@ def click_ex():
         win1.geometry('210x54+850+405')
         win1.resizable(width=False, height=False)
         win1.title('Нет ингридиентов')
-        label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red', font=("Times New Roman", 10, "bold")).pack(
-            fill=X)
+        label = Label(win1, text='В кофемашине \nнедостаточно ингридиентов!', background='red', font=("Times New Roman", 10, "bold")).pack(fill=X)
     else:
         global coice
         global win
